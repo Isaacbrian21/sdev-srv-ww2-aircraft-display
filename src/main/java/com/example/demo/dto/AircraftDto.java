@@ -24,7 +24,7 @@ public class AircraftDto {
 
     private Nation nation;
 
-    private List<AircraftType> aircraftType;
+    private AircraftType aircraftType;
 
     @Column(nullable = false)
     private String manufacturer;

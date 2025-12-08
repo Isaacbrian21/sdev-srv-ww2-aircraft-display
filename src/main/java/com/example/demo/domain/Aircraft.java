@@ -30,14 +30,9 @@ public class Aircraft {
     private Nation nation;
 
 
-    @ElementCollection(targetClass = AircraftType.class)
-    @CollectionTable(
-            name = "aircraft_aircraft_types",
-            joinColumns = @JoinColumn(name = "aircraft_id")
-    )
     @Enumerated(EnumType.STRING)
     @Column(name = "aircraft_type", nullable = false)
-    private List<AircraftType> aircraftType;
+    private AircraftType aircraftType;
 
     @Column(nullable = false)
     private String manufacturer;
