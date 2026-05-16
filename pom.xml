@@ -11,7 +11,7 @@
 	</parent>
 
 	<groupId>br.com.project.kit</groupId>
-	<artifactId>Any-project-for-any-propouses</artifactId>
+	<artifactId>any-project-for-any-propouses</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Any-project-for-any-propouses</name>
 	<description>Demo project for Spring Boot</description>
