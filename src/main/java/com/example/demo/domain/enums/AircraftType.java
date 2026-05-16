@@ -9,14 +9,14 @@ import lombok.ToString;
 @ToString
 public enum AircraftType {
     FIGHTER("FIGHTER", "Fighter"),
-    STRIKE_AIRCRAFT("STRIKE_AIRCRAFT", "Strike Aircraft"),
+    DIVE_BOMBER("DIVE_BOMBER", "Dive Bomber"),
+    JET_FIGHTER("JET_FIGHTER", "Jet Fighter"),
+    MULTIROLE("MULTIROLE", "Multirole"),
+    ATTACK("ATTACK", "Attack"),
     BOMBER("BOMBER", "Bomber"),
     STRATEGIC_BOMBER("STRATEGIC_BOMBER", "Strategic Bomber"),
     TORPEDO_BOMBER("TORPEDO_BOMBER", "Torpedo Bomber"),
-//    GLIDERS("GLIDERS", "Gliders"),
-//    TRANSPORT_AIRCRAFT("TRANSPORT_AIRCRAFT", "Transport Aircraft"),
     RECONNAISSANCE_AIRCRAFT("RECONNAISSANCE_AIRCRAFT", "Reconnaissance Aircraft");
-//    TRAINER("TRAINER", "Trainer");
 
     private final String code;         // Código armazenado no banco
     private final String description;  // Nome legível
