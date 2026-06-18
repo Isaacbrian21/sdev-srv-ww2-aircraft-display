@@ -10,7 +10,8 @@ public enum Nation {
     UK(3, "UK"),
     USSR(4, "USSR"),
     ITALY(5, "ITALY"),
-    FRANCE(6, "FRANCE");
+    FRANCE(6, "FRANCE"),
+    BRAZIL(7, "BRAZIL"),;
 
     private Integer code;       // Código numérico
     private String fullName; // Nome formatado
